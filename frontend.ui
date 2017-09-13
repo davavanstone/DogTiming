@@ -24,7 +24,7 @@
        <enum>QLayout::SetMinimumSize</enum>
       </property>
       <item>
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="pButton_eventInfo">
         <property name="text">
          <string>Event Information</string>
         </property>
@@ -62,14 +62,14 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="pButton_NewDog">
         <property name="text">
          <string>New Dog</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="pButton_EditDeleteDog">
         <property name="text">
          <string>Edit/Delete Dog</string>
         </property>
@@ -135,7 +135,7 @@
          </spacer>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit">
+         <widget class="QPlainTextEdit" name="Text_LatestTime">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -189,7 +189,7 @@
        </layout>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="pButton_SaveTime">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -228,7 +228,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_13">
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_9">
+         <widget class="QPlainTextEdit" name="Text_OwnerDogName">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -259,7 +259,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_10">
+         <widget class="QPlainTextEdit" name="Text_OverUnder">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -307,7 +307,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_7">
           <item>
-           <widget class="QPlainTextEdit" name="plainTextEdit_2">
+           <widget class="QPlainTextEdit" name="Text_Time1">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -342,7 +342,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_8">
           <item>
-           <widget class="QPlainTextEdit" name="plainTextEdit_3">
+           <widget class="QPlainTextEdit" name="Text_Time2">
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -383,7 +383,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_15">
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_11">
+         <widget class="QPlainTextEdit" name="Text_GroupAB">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -407,7 +407,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_6">
+         <widget class="QPushButton" name="pButton_PreviousDog">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -432,7 +432,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_5">
+         <widget class="QPushButton" name="pButton_NextDog">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -480,7 +480,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_27">
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_15">
+         <widget class="QPlainTextEdit" name="Text_FirstGPAUnder">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -561,7 +561,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_14">
+         <widget class="QPlainTextEdit" name="Text_FirstGPAOver">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -630,7 +630,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_25">
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_12">
+         <widget class="QPlainTextEdit" name="Text_SecondGPAUnder">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -684,7 +684,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_13">
+         <widget class="QPlainTextEdit" name="Text_SecondGPAOver">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -763,7 +763,7 @@
          <number>6</number>
         </property>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_5">
+         <widget class="QPlainTextEdit" name="Text_FirstGPBUnder">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -817,7 +817,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_4">
+         <widget class="QPlainTextEdit" name="Text_FirstGPBOver">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -886,7 +886,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_11">
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_8">
+         <widget class="QPlainTextEdit" name="Text_SecondGPBUnder">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -940,7 +940,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_7">
+         <widget class="QPlainTextEdit" name="Text_SecondGPBOver">
           <property name="maximumSize">
            <size>
             <width>16777215</width>
@@ -1009,7 +1009,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_9">
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_6">
+         <widget class="QPlainTextEdit" name="Text_FastestTime">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
             <horstretch>0</horstretch>
@@ -1055,7 +1055,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QColumnView" name="columnView">
+       <widget class="QColumnView" name="dogList">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
           <horstretch>0</horstretch>
@@ -1088,7 +1088,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPlainTextEdit" name="plainTextEdit_17">
+           <widget class="QPlainTextEdit" name="Text_previousTimeRecorded">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -1104,7 +1104,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_3">
+           <widget class="QLabel" name="Text_messagesFromSerial">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1129,7 +1129,7 @@
          </layout>
         </item>
         <item>
-         <widget class="QLabel" name="label_13">
+         <widget class="QLabel" name="LureCrazyICO">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
             <horstretch>0</horstretch>

@@ -1285,7 +1285,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>icons8-Expand Arrow Filled-50.png</normaloff>icons8-Expand Arrow Filled-50.png</iconset>
+            <normaloff>icons8-Collapse Arrow Filled-50.png</normaloff>icons8-Collapse Arrow Filled-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -1322,7 +1322,7 @@
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>icons8-Collapse Arrow Filled-50.png</normaloff>icons8-Collapse Arrow Filled-50.png</iconset>
+            <normaloff>icons8-Expand Arrow Filled-50.png</normaloff>icons8-Expand Arrow Filled-50.png</iconset>
           </property>
          </widget>
         </item>

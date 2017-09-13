@@ -65,7 +65,7 @@
      <item>
       <widget class="QLabel" name="label_9">
        <property name="text">
-        <string> </string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -120,7 +120,11 @@
          <item>
           <widget class="QPushButton" name="pushButton_2">
            <property name="text">
-            <string>Add Owner/Dog to Database \/</string>
+            <string>Add Owner/Dog to Database</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icons8-Expand Arrow Filled-50.png</normaloff>icons8-Expand Arrow Filled-50.png</iconset>
            </property>
           </widget>
          </item>
@@ -148,7 +152,11 @@
          <item>
           <widget class="QPushButton" name="pushButton">
            <property name="text">
-            <string>Retrieve Owner/Dog from Database /\</string>
+            <string>Retrieve Owner/Dog from Database</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icons8-Collapse Arrow Filled-50.png</normaloff>icons8-Collapse Arrow Filled-50.png</iconset>
            </property>
           </widget>
          </item>

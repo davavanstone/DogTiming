@@ -1,2 +1,4 @@
 # DogTiming
-# dogtiming
+
+
+A simple to use hobbyists' dog timing setup. 

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1175</width>
-    <height>882</height>
+    <height>988</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -232,6 +232,19 @@
          </spacer>
         </item>
        </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
        <widget class="QPushButton" name="pButton_SaveTime">
@@ -509,11 +522,17 @@
        </layout>
       </item>
       <item>
-       <widget class="Line" name="line_4">
+       <spacer name="verticalSpacer_3">
         <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+         <enum>Qt::Vertical</enum>
         </property>
-       </widget>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_26">
@@ -1131,11 +1150,17 @@
        </layout>
       </item>
       <item>
-       <widget class="Line" name="line_10">
+       <spacer name="verticalSpacer_4">
         <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+         <enum>Qt::Vertical</enum>
         </property>
-       </widget>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -1249,14 +1274,14 @@
           </property>
           <property name="font">
            <font>
-            <pointsize>11</pointsize>
+            <pointsize>14</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
            </font>
           </property>
           <property name="text">
-           <string>Previous Dog</string>
+           <string>Previous Dog ⴷ</string>
           </property>
           <property name="iconSize">
            <size>
@@ -1282,14 +1307,14 @@
           </property>
           <property name="font">
            <font>
-            <pointsize>11</pointsize>
+            <pointsize>14</pointsize>
             <weight>50</weight>
             <italic>false</italic>
             <bold>false</bold>
            </font>
           </property>
           <property name="text">
-           <string>Next Dog</string>
+           <string>Next Dog ⴸ</string>
           </property>
          </widget>
         </item>
@@ -1404,13 +1429,6 @@
          </widget>
         </item>
        </layout>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton">
-        <property name="text">
-         <string>PushButton</string>
-        </property>
-       </widget>
       </item>
      </layout>
     </item>

@@ -16,6 +16,12 @@
   <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
     <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
      <item>
       <widget class="QLabel" name="label">
        <property name="maximumSize">
@@ -24,13 +30,21 @@
          <height>20</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Event Name</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QTextBrowser" name="textBrowser">
+      <widget class="QPlainTextEdit" name="plainTextEdit">
        <property name="maximumSize">
         <size>
          <width>16777215</width>
@@ -48,23 +62,46 @@
      </item>
      <item>
       <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Track Length (metres)</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QTextBrowser" name="textBrowser_2">
+      <widget class="QPlainTextEdit" name="plainTextEdit_2">
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
+         <width>100</width>
          <height>30</height>
         </size>
        </property>
       </widget>
      </item>
      <item>
+      <widget class="Line" name="line_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Incline</string>
        </property>
@@ -77,13 +114,19 @@
          <property name="text">
           <string>Downhill</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
         <widget class="QRadioButton" name="radioButton_4">
          <property name="text">
-          <string>Slightl Downhill</string>
+          <string>Slightly Downhill</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -91,6 +134,9 @@
          <property name="text">
           <string>Flat</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -98,6 +144,9 @@
          <property name="text">
           <string>Slightly Uphill</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -105,12 +154,30 @@
          <property name="text">
           <string>Uphill</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
         </widget>
        </item>
       </layout>
      </item>
      <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Track Condition</string>
        </property>
@@ -123,6 +190,9 @@
          <property name="text">
           <string>Flat</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -130,6 +200,9 @@
          <property name="text">
           <string>Slightly Uneven</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
         </widget>
        </item>
        <item>
@@ -137,12 +210,30 @@
          <property name="text">
           <string>Very Uneven</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_2</string>
+         </attribute>
         </widget>
        </item>
       </layout>
      </item>
      <item>
+      <widget class="Line" name="line_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="text">
         <string>Grass Length</string>
        </property>
@@ -153,22 +244,203 @@
        <item>
         <widget class="QRadioButton" name="radioButton_10">
          <property name="text">
-          <string>RadioButton</string>
+          <string>Short</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
         </widget>
        </item>
        <item>
         <widget class="QRadioButton" name="radioButton_9">
          <property name="text">
-          <string>RadioButton</string>
+          <string>Medium</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
         </widget>
        </item>
        <item>
         <widget class="QRadioButton" name="radioButton_11">
          <property name="text">
-          <string>RadioButton</string>
+          <string>Long</string>
          </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_3</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="Line" name="line_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Precipitation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QRadioButton" name="radioButton_16">
+         <property name="text">
+          <string>Dry</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_15">
+         <property name="text">
+          <string>Light Rain</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_23">
+         <property name="text">
+          <string>Dry</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_22">
+         <property name="text">
+          <string>Light Rain</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_14">
+         <property name="text">
+          <string>Heavy Rain</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_13">
+         <property name="text">
+          <string>Snow</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_12">
+         <property name="text">
+          <string>Hailstones</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_4</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="Line" name="line_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Temperature</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QRadioButton" name="radioButton_21">
+         <property name="text">
+          <string>Freezing</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_20">
+         <property name="text">
+          <string>Cold</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_19">
+         <property name="text">
+          <string>Mild</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_18">
+         <property name="text">
+          <string>Warm</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_17">
+         <property name="text">
+          <string>Hot</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup_5</string>
+         </attribute>
         </widget>
        </item>
       </layout>
@@ -186,6 +458,37 @@
        </property>
       </spacer>
      </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>OK</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
     </layout>
    </item>
   </layout>
@@ -195,4 +498,11 @@
  </widget>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_3"/>
+  <buttongroup name="buttonGroup_4"/>
+  <buttongroup name="buttonGroup_5"/>
+ </buttongroups>
 </ui>

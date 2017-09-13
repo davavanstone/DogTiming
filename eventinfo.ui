@@ -308,26 +308,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_15">
-         <property name="text">
-          <string>Light Rain</string>
-         </property>
-         <attribute name="buttonGroup">
-          <string notr="true">buttonGroup_4</string>
-         </attribute>
-        </widget>
-       </item>
-       <item>
-        <widget class="QRadioButton" name="radioButton_23">
-         <property name="text">
-          <string>Dry</string>
-         </property>
-         <attribute name="buttonGroup">
-          <string notr="true">buttonGroup_4</string>
-         </attribute>
-        </widget>
-       </item>
-       <item>
         <widget class="QRadioButton" name="radioButton_22">
          <property name="text">
           <string>Light Rain</string>

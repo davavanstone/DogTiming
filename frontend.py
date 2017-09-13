@@ -592,8 +592,8 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "LC Dog Timing"))
         self.pButton_eventInfo.setText(_translate("MainWindow", "Event Information"))
-        self.pButton_NewDog.setText(_translate("MainWindow", "New Dog"))
-        self.pButton_EditDeleteDog.setText(_translate("MainWindow", "Edit/Delete Dog"))
+        self.pButton_NewDog.setText(_translate("MainWindow", "New Owner/Dog from Database"))
+        self.pButton_EditDeleteDog.setText(_translate("MainWindow", "Remove Dog from Current Event"))
         self.label_19.setText(_translate("MainWindow", "Latest time recorded:"))
         self.pButton_SaveTime.setText(_translate("MainWindow", "Save time to current Dog"))
         self.label_12.setText(_translate("MainWindow", "Name"))

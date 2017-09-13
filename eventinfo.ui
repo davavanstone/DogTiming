@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>EventInformation</class>
- <widget class="QWidget" name="EventInformation">
+ <class>PButtonCancel_2</class>
+ <widget class="QWidget" name="PButtonCancel_2">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -44,7 +44,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPlainTextEdit" name="plainTextEdit">
+      <widget class="QPlainTextEdit" name="Text_EventName">
        <property name="maximumSize">
         <size>
          <width>16777215</width>
@@ -76,7 +76,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPlainTextEdit" name="plainTextEdit_2">
+      <widget class="QPlainTextEdit" name="Text_TrackLength">
        <property name="maximumSize">
         <size>
          <width>100</width>
@@ -110,7 +110,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QRadioButton" name="radioButton_5">
+        <widget class="QRadioButton" name="rButtonDownhill">
          <property name="text">
           <string>Downhill</string>
          </property>
@@ -120,7 +120,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_4">
+        <widget class="QRadioButton" name="RbuttonSDownhill">
          <property name="text">
           <string>Slightly Downhill</string>
          </property>
@@ -130,7 +130,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_3">
+        <widget class="QRadioButton" name="RButtonFlat">
          <property name="text">
           <string>Flat</string>
          </property>
@@ -140,7 +140,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_2">
+        <widget class="QRadioButton" name="RButtonSUphill">
          <property name="text">
           <string>Slightly Uphill</string>
          </property>
@@ -150,7 +150,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton">
+        <widget class="QRadioButton" name="rButtonUphill">
          <property name="text">
           <string>Uphill</string>
          </property>
@@ -186,7 +186,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QRadioButton" name="radioButton_8">
+        <widget class="QRadioButton" name="rButtonFlat">
          <property name="text">
           <string>Flat</string>
          </property>
@@ -196,7 +196,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_7">
+        <widget class="QRadioButton" name="RButtonSUneven">
          <property name="text">
           <string>Slightly Uneven</string>
          </property>
@@ -206,7 +206,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_6">
+        <widget class="QRadioButton" name="rButtonVUneven">
          <property name="text">
           <string>Very Uneven</string>
          </property>
@@ -242,7 +242,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
-        <widget class="QRadioButton" name="radioButton_10">
+        <widget class="QRadioButton" name="RButtonShort">
          <property name="text">
           <string>Short</string>
          </property>
@@ -252,7 +252,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_9">
+        <widget class="QRadioButton" name="RButtonMedium">
          <property name="text">
           <string>Medium</string>
          </property>
@@ -262,7 +262,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_11">
+        <widget class="QRadioButton" name="RButtonLong">
          <property name="text">
           <string>Long</string>
          </property>
@@ -298,7 +298,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_5">
        <item>
-        <widget class="QRadioButton" name="radioButton_16">
+        <widget class="QRadioButton" name="RButtonDry">
          <property name="text">
           <string>Dry</string>
          </property>
@@ -308,7 +308,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_22">
+        <widget class="QRadioButton" name="RButtonLightRain">
          <property name="text">
           <string>Light Rain</string>
          </property>
@@ -318,7 +318,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_14">
+        <widget class="QRadioButton" name="RButtonHeavyRain">
          <property name="text">
           <string>Heavy Rain</string>
          </property>
@@ -328,7 +328,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_13">
+        <widget class="QRadioButton" name="RButtonSnow">
          <property name="text">
           <string>Snow</string>
          </property>
@@ -338,7 +338,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_12">
+        <widget class="QRadioButton" name="RButtonHail">
          <property name="text">
           <string>Hailstones</string>
          </property>
@@ -374,7 +374,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_6">
        <item>
-        <widget class="QRadioButton" name="radioButton_21">
+        <widget class="QRadioButton" name="RButtonFreezing">
          <property name="text">
           <string>Freezing</string>
          </property>
@@ -384,7 +384,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_20">
+        <widget class="QRadioButton" name="RButtonCold">
          <property name="text">
           <string>Cold</string>
          </property>
@@ -394,7 +394,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_19">
+        <widget class="QRadioButton" name="RButtonMild">
          <property name="text">
           <string>Mild</string>
          </property>
@@ -404,7 +404,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_18">
+        <widget class="QRadioButton" name="RButtonWarm">
          <property name="text">
           <string>Warm</string>
          </property>
@@ -414,7 +414,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QRadioButton" name="radioButton_17">
+        <widget class="QRadioButton" name="RButtonHot">
          <property name="text">
           <string>Hot</string>
          </property>
@@ -454,7 +454,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="PButtonCancel">
          <property name="text">
           <string>Cancel</string>
          </property>

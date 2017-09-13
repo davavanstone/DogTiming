@@ -64,14 +64,14 @@
       <item>
        <widget class="QPushButton" name="pButton_NewDog">
         <property name="text">
-         <string>New Dog</string>
+         <string>New Owner/Dog from Database</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="pButton_EditDeleteDog">
         <property name="text">
-         <string>Edit/Delete Dog</string>
+         <string>Remove Dog from Current Event</string>
         </property>
        </widget>
       </item>

@@ -1281,7 +1281,11 @@
            </font>
           </property>
           <property name="text">
-           <string>Previous Dog ⴷ</string>
+           <string>Previous Dog</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>icons8-Expand Arrow Filled-50.png</normaloff>icons8-Expand Arrow Filled-50.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -1314,7 +1318,11 @@
            </font>
           </property>
           <property name="text">
-           <string>Next Dog ⴸ</string>
+           <string>Next Dog</string>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>icons8-Collapse Arrow Filled-50.png</normaloff>icons8-Collapse Arrow Filled-50.png</iconset>
           </property>
          </widget>
         </item>

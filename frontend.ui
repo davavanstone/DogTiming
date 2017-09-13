@@ -1185,14 +1185,15 @@
     <property name="title">
      <string>File</string>
     </property>
-    <addaction name="actionNew_Event"/>
-    <addaction name="actionOpen_Even"/>
-    <addaction name="actionSave_Event_as"/>
-    <addaction name="actionSave"/>
+    <addaction name="actionNew_Event_2"/>
+    <addaction name="actionOpen_Event"/>
     <addaction name="separator"/>
-    <addaction name="actionExport_Times"/>
+    <addaction name="actionExport_Event_to_File"/>
+    <addaction name="actionUpload_Event_to_LureCrazy_co_uk"/>
     <addaction name="separator"/>
-    <addaction name="actionExit"/>
+    <addaction name="actionSelect_COM_Port"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit_2"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -1242,6 +1243,36 @@
   <action name="actionExport_Times">
    <property name="text">
     <string>Export Times...</string>
+   </property>
+  </action>
+  <action name="actionNew_Event_2">
+   <property name="text">
+    <string>New Event...</string>
+   </property>
+  </action>
+  <action name="actionOpen_Event">
+   <property name="text">
+    <string>Open Event...</string>
+   </property>
+  </action>
+  <action name="actionExport_Event_to_File">
+   <property name="text">
+    <string>Export Event to File...</string>
+   </property>
+  </action>
+  <action name="actionUpload_Event_to_LureCrazy_co_uk">
+   <property name="text">
+    <string>Upload Event to LureCrazy.co.uk...</string>
+   </property>
+  </action>
+  <action name="actionExit_2">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSelect_COM_Port">
+   <property name="text">
+    <string>Select COM Port...</string>
    </property>
   </action>
  </widget>

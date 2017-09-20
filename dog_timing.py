@@ -2,12 +2,12 @@
 
 import sys
 import sqlite3
-from PyQt5 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui, QtWidgets
 from gui_frontend import Ui_MainWindow
 
-class wndFrontEndGUI(QtGui.QMainWindow):
+class wndFrontEndGUI(QtWidgets.QMainWindow):
     def __init__(self):
-        QtGui.QMainWindow.__init__(self)
+        QtWidgets.QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.do_connections()
@@ -17,7 +17,7 @@ class wndFrontEndGUI(QtGui.QMainWindow):
 
 
 if __name__ == "__main__":
-    root = QtGui.QApplication(sys.argv)
+    root = QtWidgets.QApplication(sys.argv)
     app = wndFrontEndGUI()
     app.show()
     root.exec_()

@@ -4,6 +4,8 @@ import sys
 import sqlite3
 from PyQt5 import QtCore, QtGui, QtWidgets
 from gui_frontend import Ui_MainWindow
+from gui_ownerdog import Ui_verticalLayout1
+from gui_eventinfo import Ui_PButtonCancel_2
 
 class wndFrontEndGUI(QtWidgets.QMainWindow):
     def __init__(self):
